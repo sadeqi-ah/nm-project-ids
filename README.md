@@ -7,7 +7,7 @@ This project demonstrates the use of **Snort** as an Intrusion Detection System 
 - **Network mapping and scanning techniques** (SYN, FIN, NULL, XMAS scans)
 - **Brute force login attempts** (SSH, FTP)
 
-The rules are customized for a **home lab environment** with IP `192.168.116.129` as the protected host.
+The rules are customized for a **home lab environment** with IP `192.168.116.129` (This is our IP address when configuring snort) as the protected host (hardened Linux machine).
 
 ---
 
@@ -37,7 +37,7 @@ The rules are customized for a **home lab environment** with IP `192.168.116.129
 sudo apt update
 sudo apt install snort -y
 ```
-When prompted, set your **HOME_NET** to `192.168.116.129`.
+When prompted, set your **HOME_NET** to address of your own home ip address.
 
 ---
 
@@ -94,7 +94,7 @@ Sample alert output:
 
 ## Notes
 - This setup is designed for **educational purposes** in a lab network.
-- Threshold values are tuned for **home lab traffic**, not production.
+- Threshold values are tuned for **home lab traffic**, not production or enterprise.
 - Some patterns are simplified for demonstration and may generate false positives.
 
 ---
