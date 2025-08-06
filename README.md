@@ -43,7 +43,7 @@ When prompted, set your **HOME_NET** to `192.168.116.129`.
 
 ### Clone this repository
 ```bash
-git clone https://github.com/<your-username>/snort-ids-project.git
+git clone https://github.com/<sadeqi-ah>/snort-ids-project.git
 cd snort-ids-project
 ```
 
